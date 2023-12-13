@@ -1,6 +1,8 @@
 module groundseg
 
-go 1.21
+go 1.21.0
+
+toolchain go1.21.1
 
 require (
 	github.com/Native-Planet/go-bitstream v0.0.0-20230926215141-30b3716f9359
@@ -11,9 +13,10 @@ require (
 	github.com/gorilla/mux v1.8.0
 	github.com/gorilla/websocket v1.5.0
 	github.com/grandcat/zeroconf v1.0.0
+	github.com/hsanjuan/go-captive v0.0.1
 	github.com/mdlayher/wifi v0.1.0
 	github.com/shirou/gopsutil v3.21.11+incompatible
-	github.com/spaolacci/murmur3 v1.1.0
+	github.com/stevelacy/go-urbit v0.0.0-20221028001655-e606f41f727c
 	golang.zx2c4.com/wireguard/wgctrl v0.0.0-20230429144221-925a1e7659e6
 )
 
@@ -26,7 +29,6 @@ require (
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/google/go-cmp v0.5.9 // indirect
 	github.com/google/tcpproxy v0.0.0-20180808230851-dfa16c61dad2 // indirect
-	github.com/hsanjuan/go-captive v0.0.1 // indirect
 	github.com/josharian/native v1.1.0 // indirect
 	github.com/mdlayher/genetlink v1.3.2 // indirect
 	github.com/mdlayher/netlink v1.7.2 // indirect
@@ -37,7 +39,6 @@ require (
 	github.com/opencontainers/go-digest v1.0.0 // indirect
 	github.com/opencontainers/image-spec v1.0.2 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
-	github.com/stevelacy/go-urbit v0.0.0-20221028001655-e606f41f727c // indirect
 	github.com/stretchr/testify v1.8.4 // indirect
 	github.com/tklauser/go-sysconf v0.3.12 // indirect
 	github.com/tklauser/numcpus v0.6.1 // indirect
