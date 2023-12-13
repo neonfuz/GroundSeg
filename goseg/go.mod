@@ -3,6 +3,7 @@ module groundseg
 go 1.21
 
 require (
+	github.com/Native-Planet/go-bitstream v0.0.0-20230926215141-30b3716f9359
 	github.com/docker/docker v24.0.5+incompatible
 	github.com/docker/go-connections v0.4.0
 	github.com/fernet/fernet-go v0.0.0-20211208181803-9f70042a33ee
@@ -19,7 +20,6 @@ require (
 require (
 	github.com/Microsoft/go-winio v0.6.1 // indirect
 	github.com/cenkalti/backoff v2.2.1+incompatible // indirect
-	github.com/dgryski/go-bitstream v0.0.0-20180413035011-3522498ce2c8 // indirect
 	github.com/docker/distribution v2.8.2+incompatible // indirect
 	github.com/docker/go-units v0.5.0 // indirect
 	github.com/go-ole/go-ole v1.2.6 // indirect
