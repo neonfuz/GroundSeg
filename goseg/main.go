@@ -38,6 +38,10 @@ import (
 	"time"
 
 	"github.com/gorilla/mux"
+
+	// imports used in other modules
+	// import them here so building with --mod=vendor doesn't fail
+	_ "github.com/Native-Planet/go-bitstream"
 )
 
 var (
